@@ -5,6 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
+@Greeting("Hallo, ich bin eine Person.")
 public class Person {
 
     private final String name;
